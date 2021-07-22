@@ -1,0 +1,141 @@
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*.header{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    background: #000;*/
+/*}*/
+/*.nav ul{*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+/*.nav li{*/
+/*    display: inline-block;*/
+/*}*/
+/*.navbar{*/
+/*    min-height: 55px;*/
+/*}*/
+.navbar{
+    height: 60px;
+}
+.nav-item{
+    display:table;
+/*    text-decoration: none;*/
+/*    color:#ffffff;*/
+/*    width: auto;*/
+/*    display: block;*/
+/*    padding: 20px;*/
+/*    font-size: 90%;*/
+/*    font-family: Arial;*/
+}
+.nav-item a:hover{
+    background: #4BB7E1;
+    transition: 0.5s;
+}
+.nav-link{
+    color : white;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: floralwhite;
+}
+/*!*#header_obj{*!*/
+/*!*    display: flex;*!*/
+/*!*    justify-content: flex-end;*!*/
+/*!*}*!*/
+
+/*.row_name{*/
+/*    !*margin-top: 5px;*!*/
+/*    padding: 1%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    !*border: 2px solid darkcyan;*!*/
+/*}*/
+/*.buttons{*/
+/*    margin: 10px;*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*}*/
+/*.buttons a{*/
+/*    text-decoration: none;*/
+/*    color:#fff;*/
+/*    width: auto;*/
+/*    display: block;*/
+/*    padding: 10px;*/
+/*    font-size: 90%;*/
+/*    font-family: Arial;*/
+/*    background: #4BB7E1;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*form, h1 {*/
+/*    text-align: center;*/
+/*}*/
+
+/** {*/
+/*    margin: 0;!*это свойство можно удалить, если вы используете reset, normalize или нечто подобное*!*/
+/*}*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    /*margin: 0 auto;*/
+    /*align-self: center;*/
+    /*align-items: center;*/
+}
+.content{
+    margin: auto;
+    text-align: center;
+}
+.delete:hover {
+    background-color: red;
+}
+.edit:hover {
+    background-color: darkseagreen;
+}
+/*.content h1, .content div{*/
+/*    margin: 30px;*/
+/*}*/
+/*!*    !*padding: 1rem;!*это свойство можно удалить, добавлено для наглядности*!*!*!*/
+/*!*    background: #e6f2ff;!*это свойство можно удалить, добавлено для наглядности*!*!*/
+/*!*}*!*/
+
+.footer {
+    height: 85px;
+    margin-top: auto;
+    border-top: 1px solid #ddd;
+    background-color: #f5f5f5;
+    text-align: center;
+    /*width: 100%;*/
+    /*height: auto;*/
+    padding-top: 10px;
+    /*flex: 0 0 auto;*/
+    /*padding: 2vmin;!*это свойство можно удалить, добавлено для наглядности*!*/
+    /*background: #e6ffe6;!*это свойство можно удалить, добавлено для наглядности*!*/
+}
+.text-small{
+    font-size: 90%;
+}
+html, body{
+    background-color: #EEF2F4;
+}
+h1{
+    font-weight: lighter;
+}
+h4{
+    font-size: 24px;
+    font-weight: normal;
+}
+strong{
+    font-weight: lighter;
+}
+
+
