@@ -1,6 +1,6 @@
 <?php
 require 'application/lib/dev.php';
-require "application/vendors/vendor/autoload.php";
+require "application/vendor/autoload.php";
 use application\core\Router;
 
 spl_autoload_register(function($class) {

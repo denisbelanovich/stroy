@@ -16,7 +16,7 @@
                             <h4 class="card-title">Демонстрационный вход</h4>
                             <p class="card-text">Логин: <strong>demouser</strong></p>
                             <p class="card-text">Пароль: <strong>qwerty12345</strong></p>
-                            <p class="card-text">Поддержка: <a href="mailto:stroydocby@mail.ru">stroydocby@mail.ru</a></p>
+                            <p class="card-text">Поддержка: <a href="mailto:denis.belanovich@gmail.com">denis.belanovich@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
